@@ -1,0 +1,17 @@
+body{
+	background: white;
+	color: #666666;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.content-panel{
+	margin-left: 200px;
+}
+
+.footer{
+	font-size: 9px;
+}
+
+.is-fullheight{
+	height: 100%;
+}
