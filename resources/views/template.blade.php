@@ -1,9 +1,8 @@
 <html>
 	<head>
-		<title>@yield('title')</title>
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<title>@yield('title')</title>		
 		<link href="{{ asset('/css/template.css') }}" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="{{ asset('/css/w3.css') }}" rel="stylesheet">
 		@yield('head')
 	</head>
 	<body>
@@ -20,7 +19,7 @@
 						<p>User Management</p>
 					</button>
 					<div id="accUserManagement" class="w3-bar-block w3-hide">
-						<a href="#" class="w3-bar-item w3-button">Create User</a>
+						<a href="/create_user" class="w3-bar-item w3-button">Create User</a>
 						<a href="#" class="w3-bar-item w3-button">View User</a>
 						<a href="#" class="w3-bar-item w3-button">Edit User</a>
 					</div>
@@ -37,7 +36,10 @@
 					<div id="accReportManagement" class="w3-bar-block w3-hide">
 						<a href="#" class="w3-bar-item w3-button">Diagram Report</a>
 						<a href="#" class="w3-bar-item w3-button">Table Report</a>						
-					</div>					
+					</div>
+					<a href="#" class="w3-bar-item w3-button" title="Contact our beloved developers, let them know what you think to make INOUT more awesome!">
+						<p>Contact</p>
+					</a>					
 				</div>
 			</div>
 			<div class="content-panel is-fullheight">
