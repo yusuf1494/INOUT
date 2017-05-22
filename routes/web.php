@@ -22,3 +22,5 @@ Route::get('/dashboard', function(){
 Route::get('/create_user', function(){
 	return view('create_user');
 });
+
+Route::post('/user','UserController@createUser')->name('createUser');
