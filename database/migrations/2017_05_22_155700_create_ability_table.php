@@ -18,7 +18,7 @@ class CreateAbilityTable extends Migration
 		Schema::create('ability', function(Blueprint $table){
 			$table->string('id');
 			$table->string('name');
-			$table->int('ability_number');
+			$table->integer('ability_number');
 		});
 	}
 

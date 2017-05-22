@@ -1,0 +1,13 @@
+Laravel tips:
+
+*LOG in browser
+php -S localhost:8000 -t public 
+
+* Add -v (verbose) to see full log of
+php artisan command
+
+* Migration file should be given timestamp as prefix filename ex:
+2017_05_22_155700_migration_file_name.php
+
+*To activate postgresql open php.ini in php folder search extension=php_pdo_pgsql.dll and extension=php_pgsql.dll
+and uncomment them. (delete ; in front of them)

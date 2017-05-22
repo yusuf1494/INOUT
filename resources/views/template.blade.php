@@ -12,7 +12,7 @@
 					<a href="#" class="w3-bar-item w3-button">
 
 					</a>
-					<a href="#" class="w3-bar-item w3-button" title="Our beautiful dashboard :)">
+					<a href="create_user" class="w3-bar-item w3-button" title="Our beautiful dashboard :)">
 						<p>Dashboard</p>
 					</a>
 					<button class="w3-bar-item w3-button" onclick="expand('accUserManagement')" title="This is where you can manage who's in charge">
@@ -31,7 +31,7 @@
 						<a href="#" class="w3-bar-item w3-button">Outcome</a>						
 					</div>
 					<button class="w3-bar-item w3-button" onclick="expand('accReportManagement')" title="Awesome report is awesome. Take a look, you might found something interesting">
-						<p>Your Report Here</p>
+						<p>Report</p>
 					</button>
 					<div id="accReportManagement" class="w3-bar-block w3-hide">
 						<a href="#" class="w3-bar-item w3-button">Diagram Report</a>

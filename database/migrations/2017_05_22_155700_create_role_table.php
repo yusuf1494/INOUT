@@ -16,7 +16,7 @@ class CreateRoleTable extends Migration
 	{
 		Schema::create('role', function(Blueprint $table){
 			$table->string('id');
-			$table->string('company_id')->references('id')->('company');
+			$table->string('company_id')->references('id')->on('company');
 			$table->string('name');
 		});
 	}
